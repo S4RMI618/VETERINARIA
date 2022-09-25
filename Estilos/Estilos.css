@@ -1,0 +1,234 @@
+/* estilos predeterminados*/
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif';
+    background-color: #fff;
+}
+.titulo {
+    color:#70c0a4;
+    font-size: 50px;    
+    text-align: center;
+    /* margin-bottom: 60px; */
+    font-weight: 800;
+    padding: 5rem;
+}
+/* encabezado */
+
+header {
+    border-color: #414141;
+    border-radius: 2rem;
+    width: 100%;
+    height: 300px;
+    background: #73C8A9;
+    background: -webkit-linear-gradient(to right, hsla(222, 11%, 24%, 0.714), hsla(158, 44%, 62%, 0.681)) , url("../images/headerimg.jpg"); 
+    background: linear-gradient(to right, hsla(222, 11%, 24%, 0.714), hsla(158, 44%, 62%, 0.681)) , url("../images/headerimg.jpg"); 
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+nav{
+    text-align: center;
+    margin: 0;
+    padding: 0 50px;
+    position: fixed;    
+}
+
+nav .animacion{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    transition: 0.8s ease all;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+nav li{
+    margin: 0.1rem;
+    padding: 0.1rem;
+    display: inline-flex;
+    max-width: 25%;
+}
+
+nav a{
+    display: inline-flex;
+    padding: 20px;
+    margin: auto;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.8s ease all;
+    max-width: 100%;
+}
+
+nav a:hover{
+    color: black;
+    background: aquamarine; 
+    display: underblock;
+}
+
+.animacion nav {
+    background-color: hsla(158, 44%, 62%, 0.5);
+}
+
+.position{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
+img {
+    max-width: 12rem;
+    max-height: 6rem;
+    margin: 0;    
+    padding: 0;
+    border-radius: 3px;
+    position: relative;
+}
+
+.contenedor {
+    width: 100%;
+    min-height: 70%;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.container-right {
+    max-width: 30%;
+    background-color: hsla(158, 100%, 88%, 0.434);
+    border: 1px solid #000;
+    box-shadow: 5px 5px 5px #A5A5A4;
+    max-width: 30%;
+    padding: 1rem;
+    margin: 1rem;
+    float: right;
+    max-height: 100%;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.entrada {
+    width: 100%;
+    padding: 5px;
+    border: 1px #efefef;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 5px;
+}
+form .buton {
+    padding: 5px;
+    margin-left: 30%    ;
+}
+
+.container {
+    max-width: 65%;
+    height: 50%;
+    background-color: hsla(158, 100%, 88%, 0.434);
+    margin: 1rem;
+    margin-right: 0;
+    border: 1px solid #000;
+    padding: 1.5rem;
+    box-shadow: 7px 7px 5px 1px #A5A5A4;
+    overflow: hidden;
+    float: left;
+}
+
+.imgl {
+    background-color: #000;
+    border: 5px solid #000;
+    border-radius: 10px;
+    padding: 0;
+    float: left;
+    overflow: hidden;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+}
+.imgl2 {
+    background-color: #000;
+    float: right;
+    border: 5px solid #000;
+    border-radius: 15px;
+    padding: 0;
+    overflow: hidden;
+    margin-left: 1rem;
+    display: flex;
+}
+
+
+.texto {
+    margin: 0%;
+    padding-left: 1rem;
+    text-align: justify;
+}
+.texto2 {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding: 1.5rem;
+}
+
+
+div a:link {
+    text-decoration: #70c0a4;
+
+}
+#color-hover {
+    text-decoration: none;
+}
+
+
+h1 {
+    margin-left: 1.1rem;
+    text-shadow: 1px 3px 4px #000;
+}
+.container-right h2 {
+    text-align: center;
+    text-shadow: 1px 3px 4px #000;
+}
+
+input {
+    text-decoration: transparent;
+}
+
+
+/* footer */
+		
+footer{
+    border-top: 2px solid #000;
+    width: 100%;
+    margin-top: 5rem;
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: block;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px 0 0 0;
+    color: #9e9797;
+}
