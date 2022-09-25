@@ -97,19 +97,23 @@ img {
     width: 100%;
     min-height: 70%;
     justify-content: space-between;
-    flex-direction: row;
+    flex-direction: row;    
 }
 
 .container-right {
-    max-width: 30%;
+    max-width: 35%;
+    max-height: 100%;
     background-color: hsla(158, 100%, 88%, 0.434);
     border: 1px solid #000;
     box-shadow: 5px 5px 5px #A5A5A4;
-    max-width: 30%;
     padding: 1rem;
+    padding-bottom: 0;
     margin: 1rem;
+    margin-left: 0;
     float: right;
-    max-height: 100%;
+    overflow: hidden;
+    box-sizing: none;
+    
 }
 
 .block {
@@ -133,15 +137,16 @@ form .buton {
 
 .container {
     max-width: 65%;
-    height: 50%;
     background-color: hsla(158, 100%, 88%, 0.434);
     margin: 1rem;
     margin-right: 0;
+    margin-left: 1rem;
     border: 1px solid #000;
     padding: 1.5rem;
     box-shadow: 7px 7px 5px 1px #A5A5A4;
-    overflow: hidden;
+    overflow: hidden;   
     float: left;
+    box-sizing: none;
 }
 
 .imgl {
@@ -171,9 +176,10 @@ form .buton {
     margin: 0%;
     padding-left: 1rem;
     text-align: justify;
+    font-size: 1.rem;
 }
 .texto2 {
-    display: block;
+    /* display: block; */
     align-items: center;
     justify-content: space-between;
     margin: auto;
